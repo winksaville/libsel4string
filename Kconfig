@@ -1,0 +1,13 @@
+#
+# Copyright 2015, Wink Saville
+#
+# This software may be distributed and modified according to the terms of
+# the BSD 2-Clause license. Note that NO WARRANTY is provided.
+# See "LICENSE_BSD2.txt" for details.
+#
+
+menuconfig LIB_SEL4_STRING
+    bool "Build sel4 string library"
+    default n
+    help
+        "Build the sel4 string library which defines various string routines such as seL4_StrNCmp"
