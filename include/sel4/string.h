@@ -12,4 +12,7 @@
 int
 seL4_StrNCmp(const char *str1, const char *str2, int num);
 
+int
+seL4_StrLen(const char *str);
+
 #endif // __SEL4_STRING_H

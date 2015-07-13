@@ -9,7 +9,7 @@
 TARGETS := libsel4string.a
 
 # Source files required to build the target
-CFILES   := src/sel4_string.c
+CFILES   := src/sel4_strncmp.c src/sel4_strlen.c
 
 ASMFILES :=
 
