@@ -8,7 +8,6 @@
 
 #include <sel4/simple_types.h>
 #include <sel4/string.h>
-#include <sel4/debug_assert.h>
 
 /**
  * Compare two strings, returns 0 if they are identical.
@@ -19,8 +18,6 @@ int
 seL4_StrNCmp(const char *str1, const char *str2, int num) {
     int diff = 0;
     if (num > 0) {
-        seL4_DebugAssert(str1 != seL4_Null);
-        seL4_DebugAssert(str2 != seL4_Null);
         for (int i = 0; i < num; i++) {
             char ch1 = str1[i];
             char ch2 = str2[i];
